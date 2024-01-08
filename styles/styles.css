@@ -316,3 +316,83 @@
   background: #f00;
   margin-left: -38px;
 }
+
+footer {
+  background: #070211;
+}
+
+.foot-container {
+  width: 82%;
+  max-width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  text-align: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.contact {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0px 50px 0px;
+}
+
+.contact-address {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.contact-way .phone,
+.contact-way .website {
+  display: flex;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  align-items: center;
+}
+
+/* .contact-way {
+  display: flex;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  align-items: center;
+} */
+
+.phone img,
+.website img {
+  width: 24px;
+  height: 24px;
+  padding-right: 16px;
+}
+
+/* social icon design */
+
+.social-icon {
+  display: flex;
+  padding: 50px 0px 50px 520px;
+  width: 64px;
+  height: 64px;
+}
+
+.social-icon img {
+  margin-right: 24px;
+}
+
+.foot-last {
+  display: flex;
+  justify-content: space-between;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 50px 0px 120px 0px;
+  text-transform: capitalize;
+}
