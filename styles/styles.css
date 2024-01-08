@@ -317,6 +317,8 @@
   margin-left: -38px;
 }
 
+/* footer design */
+
 footer {
   background: #070211;
 }
@@ -357,15 +359,6 @@ footer {
   line-height: 40px;
   align-items: center;
 }
-
-/* .contact-way {
-  display: flex;
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 40px;
-  align-items: center;
-} */
 
 .phone img,
 .website img {
