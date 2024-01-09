@@ -173,7 +173,7 @@
   );
   display: flex;
   flex-direction: column;
-  margin: 120px auto 50px;
+  margin: 120px auto 0px;
   align-items: center;
   text-align: center;
 }
@@ -209,7 +209,7 @@
 .offer-container {
   display: flex;
   max-width: 100%;
-  margin: 50px auto;
+  margin: 70px auto;
   align-items: center;
   justify-content: space-between;
 }
@@ -278,13 +278,96 @@
   height: 140px;
   padding-top: 43px;
 }
+
+/* holiday sell section */
+.holiday-container {
+  width: 82%;
+  max-width: 1320px;
+  height: auto;
+  margin: 120px auto;
+  text-align: center;
+  position: relative;
+}
+.holiday-container .holiday-text {
+  display: inline-block;
+  text-align: center;
+}
+
+.holiday-container .red-bg {
+  width: 100%;
+  height: 229px;
+  border-radius: 16px 0px 16px 16px;
+  background: #f00;
+  position: absolute;
+  bottom: 0;
+}
+
+.holiday-container .holiday-img .img-box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.holiday-container .holiday-img .img-box .sale-image {
+  width: 50%;
+  height: auto;
+}
+.holiday-container .holiday-img .img-box .img1 {
+  width: 796.463px;
+  height: 662.07px;
+  z-index: 999999;
+}
+.holiday-container .img2 {
+  width: 206.841px;
+  height: 206.841px;
+  position: absolute;
+  top: 381px;
+  left: 58%;
+}
+
+.holiday-container .holiday-img .img-box .img3 {
+  width: 429px;
+  height: 433px;
+}
+
+.holiday-container .holiday-text h6 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday-container .holiday-text .holiday {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-container .holiday-text h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-container .holiday-text p {
+  max-width: 1068px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 16px;
+  padding-bottom: 28px;
+}
 /* gift container style */
 .container {
   width: 82%;
   max-width: 1320px;
   height: auto;
   border-radius: 16px;
-  margin: 50px auto;
+  margin: 120px auto;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -445,7 +528,6 @@ footer {
 .social-icon {
   display: flex;
   padding: 4% 0 4% 40%;
-  /* padding-left: 40%; */
   width: 64px;
   height: 64px;
 }
