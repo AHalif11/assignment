@@ -441,7 +441,7 @@
 }
 
 .subscribe .sub-text p {
-  width: 896px;
+  max-width: 896px;
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
   font-family: Inter;
